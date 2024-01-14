@@ -69,6 +69,13 @@
 14. 도커 컨테이너를 실행한다.
     docker run -p 8080:80 tedkov2024/docker-react-app
 
-15. git hub에 도커 이미지를 올린다.
-    docker login
-    docker push tedkov2024/docker-react-app
+15. git에 파일을 올린다
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin
+
+16. Travis Ci 를 사용해본다 가저오게만 된 상태
+
+17. travis.yml 파일을 생성하고 테스트 및 aws로 배포하는것을 설정해야한다.
